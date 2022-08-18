@@ -2,27 +2,28 @@ import java.util.Scanner;
 
 public class Greater {
     public static void main(String[] args) {
+        double x1,x2,x3,x4,y1,y2,y3,y4,Line_1,Line_2;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter x1 coordinate:");
-        double x1  = sc.nextInt();
+         x1  = sc.nextInt();
         System.out.println("Enter x2 coordinate:");
-        double x2  = sc.nextInt();
+         x2  = sc.nextInt();
         System.out.println("Enter y1 coordinate:");
-        double y1  = sc.nextInt();
+        y1  = sc.nextInt();
         System.out.println("Enter y2 coordinate:");
-        double y2  = sc.nextInt();
-        double Line_1 =Math.sqrt(Math.pow((x2-x1),2))+Math.sqrt(Math.pow((y2-y1),2));
+         y2  = sc.nextInt();
+         Line_1 =Math.sqrt(Math.pow((x2-x1),2))+Math.sqrt(Math.pow((y2-y1),2));
 
 
         System.out.println("Enter x3 coordinate:");
-        double x3  = sc.nextInt();
+         x3  = sc.nextInt();
         System.out.println("Enter x4 coordinate:");
-        double x4  = sc.nextInt();
+         x4  = sc.nextInt();
         System.out.println("Enter y3 coordinate:");
-        double y3  = sc.nextInt();
+         y3  = sc.nextInt();
         System.out.println("Enter y4 coordinate:");
-        double y4  = sc.nextInt();
-        double Line_2 =Math.sqrt(Math.pow((x4-x3),2))+Math.sqrt(Math.pow((y4-y3),2));
+        y4  = sc.nextInt();
+         Line_2 =Math.sqrt(Math.pow((x4-x3),2))+Math.sqrt(Math.pow((y4-y3),2));
 
         if(Line_1==Line_2){
             System.out.println("Line_1 is equal Line_2");

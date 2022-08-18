@@ -13,8 +13,7 @@ public class Greater {
         System.out.println("Enter y2 coordinate:");
          y2  = sc.nextInt();
          Line_1 =Math.sqrt(Math.pow((x2-x1),2))+Math.sqrt(Math.pow((y2-y1),2));
-
-
+//         second line
         System.out.println("Enter x3 coordinate:");
          x3  = sc.nextInt();
         System.out.println("Enter x4 coordinate:");
